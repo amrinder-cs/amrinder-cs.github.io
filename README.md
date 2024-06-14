@@ -23,7 +23,7 @@
 
 # Manual Installation of frappe framework on debian 12.5
 
-9:30 - installed ddocker and installed docker image of frappe
+9:30 - installed docker and installed docker image of frappe
 
 11:30 - started to re install frappe manually
 
