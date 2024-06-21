@@ -19,33 +19,8 @@
 
 1. This is how we setup the nginx configuration file to do the above: [markdown parser config](/Parser.conf)
 
+
 # 13th June 2024
-
-# Manual Installation of frappe framework on debian 12.5
-
-9:30 - installed docker and installed docker image of frappe
-
-11:30 - started to re install frappe manually
-
-12:00 - Frappe requires different dependencies, which were conflicting with the ones in OS. Therefore reinstalled the OS.
-
-2:00 - installed debian 12 fresh
-
-03:06 - Installed Node Version Manager to manage different versions of nodejs. Source: [Here](https://github.com/nvm-sh/nvm?tab=readme-ov-file)
-
-03:34 - Installed MariaDB version 15.1
-
-03:48 - install python 3.11
-
-03:59 - started installing redis from source since version 6 was not available in the package manager.
-
-04:10 - installed jemalloc - a dependency of redis and hiredis
-
-04:23 - installed redis 7
-
-04:31 - installed frappe
-
-
 # Manual Installation of frappe framework on debian 12.5
 
 9:30 - installed ddocker and installed docker image of frappe
@@ -56,7 +31,7 @@
 
 2:00 - installed debian 12 fresh
 
-03:06 - Installed Node Version Manager to manage different versions of nodejs. Source: (https://github.com/nvm-sh/nvm?tab=readme-ov-file#git-install)[Here]
+03:06 - Installed Node Version Manager to manage different versions of nodejs. Source: [Here](https://github.com/nvm-sh/nvm?tab=readme-ov-file#git-install)
 
 03:34 - Installed MariaDB version 15.1
 
@@ -130,3 +105,30 @@ Building dependency tree... Done
 Reading state information... Done
 E: Unable to locate package python3-supervisor
 ```
+
+
+# 15 June 2024
+
+## Followed the Developement version of frappe installation documentation instead of production one
+
+09:00 - Fresh installed Docker on Debian 12.5
+
+09:30 - Cloned the frappe_docker repository of frappe. [Here](https://github.com/frappe/frappe_docker/)
+
+ - Figured out in latest docker version, `docker compose` no longer works. Requires `docker-compose`
+
+ - The syntax does not match while installation, it gives an error about invalid command `docker compose ...`
+
+ - Using docker-compose, ran the command: `docker-compose -f pwd.yml -d`
+
+ - It still gave the error regarding syntax of command which are abstracted with docker 
+
+
+
+# 16, 17, 18 June 2024
+
+Started creating the own docker compose file for frappe. [Spent weekend learning docker compose](https://docs.docker.com/compose/gettingstarted/)
+
+
+# 19 June 2024
+
