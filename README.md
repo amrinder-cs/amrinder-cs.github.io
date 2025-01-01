@@ -202,9 +202,18 @@ created scaffolding with python code, made all the individual units of the full 
 
 
 # 26 June 2024
+Today, I worked on a feature in Frappe to fetch the current logged-in user and the selected user using Python. I utilized Frappe's built-in methods to retrieve session data and implemented logic to identify the selected user. After debugging and testing for different user roles and scenarios, the functionality worked as expected. It was a productive task, enhancing my understanding of Frappe's user management.
+
 
 # 27 June 2024
 
+Today, I debugged a looping issue in my code caused by a recursive function call. After identifying the problem, I implemented a flag to prevent the recursion from repeating unnecessarily. This resolved the issue effectively and ensured the function behaved as expected.
+
 # 28 June 2024
 
+Today, I exported permissions and a Doctype into my Frappe application. This involved ensuring the configurations and structure were correctly mapped to the app for seamless integration. The process went smoothly, and the exported components are now ready for deployment.
+
 # 29 June 2024
+
+Today, I implemented a feature that allows folders to be created directly from the frontend. This involved updating the UI and backend logic to handle folder creation seamlessly. The new functionality is now working as intended, improving user accessibility and workflow.
+
