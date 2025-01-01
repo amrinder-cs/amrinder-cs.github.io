@@ -187,12 +187,24 @@ The document has these stages:
 These stages tell us where the assignment is right now at the moment. The plagiarism check is done at the submitted stage by the teacher/mentor or head of department.
 
 
-#  22 June 2024
+#  24 June 2024
 
-Added  the ability to add API credentials from the frontend for drillbit, so that we don't have to do it in the code. The credentials are configurable by the administartor.
-
-
+Added  the ability to add API credentials from the frontend for drillbit, so that we don't have to do it in the code. The credentials are configurable by the administartor. The python code fetches the credentials and uses it to authenticate with drillbit.
 
 
+# 25 June 2024
+
+created scaffolding with python code, made all the individual units of the full program and tested them for proper functioning. These are the units which were tested:
+- Creating a document and reading from python code
+- Changing states and triggering python code upon stage change
+- Changing views based on the user, so only authorized users can see the plagiarism check part
+- Uploading the document via frontend, and reading it by drillbit.
 
 
+# 26 June 2024
+
+# 27 June 2024
+
+# 28 June 2024
+
+# 29 June 2024
